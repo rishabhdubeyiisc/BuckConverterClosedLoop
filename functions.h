@@ -1,25 +1,3 @@
-/**********************************************************************
-* Indian Institute of Science Bengaluru
-*
-* FileName:        functions.h
-*
-* This code can be used for academic purpose only. Industrial or any 
-* commercial usage is prohibited.
-*
-* REVISION HISTORY:
-*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-* Author            Date      Comments on this revision
-*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-* Kaushik Basu 06/08/18  First release of source file
-*
-*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-*
-* ADDITIONAL NOTES:
-*
-*
-**********************************************************************/
-
-
 /* Interrupts */
 void __attribute__((__interrupt__,__auto_psv__)) _T3Interrupt(void);
 void __attribute__((__interrupt__,__auto_psv__)) _T4Interrupt(void);
